@@ -130,8 +130,8 @@ if len(por_canal):
              f"tiene **{int(elegido.una_compra)} compradores con una sola compra** y "
              f"una **tasa de recompra del {elegido.tasa_recompra:.1f}%**. "
              'Es una oportunidad por volumen, no una prueba de efectividad. '
-             'Limitación: no sabemos por qué los clientes no han vuelto a comprar. '
-             'Evaluaría un piloto aleatorizado comparando la tasa de segunda compra '
+             'una limitacion es que no sabemos por qué los clientes no han vuelto a comprar. '
+             'yo evaluaría un piloto comparando la tasa de segunda compra '
              'del grupo contactado contra un grupo de control.')
 else:
     st.warning('No hay compradores con los filtros seleccionados. No se calculan tasas sin denominador.')
